@@ -1,6 +1,9 @@
 name: Train ChakraTransformer on GPU
 
 on:
+  push:
+    branches:
+      - varshasrao58-compare-endovit-vit
   workflow_dispatch:
     inputs:
       runner:
